@@ -9,7 +9,7 @@ const fs = require("fs");
   // Login
   await page.goto("http://visual.ic.uff.br/dmi/");
   const username = "utkarshVerma2506";
-  const password = "Utkarsh#2001";
+  const password = "password";
   await page.focus('input[name="usuario"]');
   await page.keyboard.type(username);
   await page.focus('input[name="password"]');
